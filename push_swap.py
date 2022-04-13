@@ -1,1 +1,1 @@
-for i in sorted(list(map(int, input().split()))): print(i, end = " ")
+print(*sorted(list(map(int, input().split()))))
